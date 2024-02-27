@@ -49,15 +49,6 @@ while True:
         print('Invalid mode. ')
         continue
 
-
-pwd = input('What is the master password?')
-def view():
-    with open('passwords.txt', 'r') as f:
-        for x in f.readlines():
-            data = x.rstrip()
-            user, passw = data.split('|')
-def add():
-    name= input('Account Name: ')
     
 
 
